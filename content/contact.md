@@ -5,6 +5,7 @@ omit_header_text: true
 description: Meet the girls behind the text
 type: page
 menu: main
+draft: false
 
 ---
 ## Meet the girls behind the text
