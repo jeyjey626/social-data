@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biking in the Big Apple on Biking in New York</title>
+    <link>https://jeyjey626.github.io/ny-bikes/</link>
+    <description>Recent content in Biking in the Big Apple on Biking in New York</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jeyjey626.github.io/ny-bikes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts.post</title>
+      <link>https://jeyjey626.github.io/ny-bikes/posts.post/</link>
+      <pubDate>Sun, 08 May 2022 11:03:41 +0200</pubDate>
+      
+      <guid>https://jeyjey626.github.io/ny-bikes/posts.post/</guid>
+      <description>nanana</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://jeyjey626.github.io/ny-bikes/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeyjey626.github.io/ny-bikes/about/</guid>
+      <description>Illustration from Victor Hugo et son temps (1881)   The Hunchback of Notre-Dame (French: Notre-Dame de Paris) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England.</description>
+    </item>
+    
+    <item>
+      <title>Authors</title>
+      <link>https://jeyjey626.github.io/ny-bikes/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeyjey626.github.io/ny-bikes/contact/</guid>
+      <description>Meet the girls behind the text Let us introduce ourselves! This is the team that wrote the article you (hopefully) just read - we&amp;rsquo;re three students currently pursuing various masters at the Danish University of Technology. We&amp;rsquo;re passionate about data and how it can help us change the world around us for the better. You can find us on LinkedIn using the icons below!
+Julia Makulec Laura Bonde Holst Marta Lech  </description>
+    </item>
+    
+  </channel>
+</rss>
