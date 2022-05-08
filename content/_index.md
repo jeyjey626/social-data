@@ -8,3 +8,9 @@ cascade:
   featured_image: 'media/new-york-bg.jpg'
 ---
 Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
+
+This is an example of placing folium/html maps:
+1. Upload the .html file to static/html.
+2. reference folium shortcode passing string "html/yourmap.html" as argument - just like below!
+3. Profit
+{{<folium "html/nyc_map.html">}}
