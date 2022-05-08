@@ -29,6 +29,9 @@ HUGO_VERSION = "0.98.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[build.processing]
+    skip_processing = true
+
 [[redirects]]
 from = "/npmjs/*"
 to = "/npmjs/"
