@@ -20,14 +20,13 @@ The city's bike routes are classified by varying degree of safety, and counting 
 
 ![Route type distribution](/svg/plot_route_distribution.svg)
 
-It shows that there is a large amount of standard bikes, separated from vehicles with paint. However, the runner-up for most segments is *"sharrows"* - where a bike shares the lane with cars. It's not necessarily a bad thing, even though less safe, it still signals that cyclists are expected there. 
+It shows that there is a large amount of standard bikes, separated from vehicles with paint. However, the runner-up for most segments are *"sharrows"* - where a bike shares the lane with cars. It's not necessarily a bad thing, even though less safe, it still signals that cyclists are expected there. 
 
 Great, we know the routes. But what about our cyclists? Let's attempt to gain some insight on why do they bike by looking at the distribution of citybike bike trips over the week.
 
 ![Bike trips by day of week](/svg/plot_dayofweek_distribution.svg)
 
-CityBike is a bike sharing service. With that in mind, the fact that the most trips are performed during weekdays could mean that they are the people we're after - commuters. To further corroborate that let's plot a more complex graph on that data - a calendar graph.
-
+CitiBike is a bike sharing service. With that in mind, the fact that the most trips are performed during weekdays could mean that they are the people we're after - commuters. To further corroborate that let's plot a more complex graph on that data - a calendar graph.
 ![Calendar plot](/svg/plot_calendar.svg)
 
 Looking at this gradient, we can see that mot trips are recorded between the morning rush hours - 6 and 9. It is worth noting, that we suspect that around 7am the server system or database may have maintenance time, as it is very unlikely for that specific rush hour to be so empty across the whole year. But even with that break, we can now with more confidence say, that this dta should give us insights about New York's commuters.
