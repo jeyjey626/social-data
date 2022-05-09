@@ -11,6 +11,27 @@ Freshly arrived in Copenhagen, when getting out of the bus, I almost got ran ove
 
 More and more big cities such as London follow suit, trying to reduce the carbon footprint by encouraging this ecological form of transportation. However, some of them are falling behind. It came as a surprise that the Big Apple was so small in the biking department - only **1.1%** of New Yorkers cycle to work! But if there's one thing New York is good at is providing access to the data about the city. So let's dive into cycling data to try to give them a push towards being green. 
 
+## The route of the problem
+
+The first thing we should look at is how much of New York is accessible by bike, and what conditions do cyclists face. The city's bike routes are classified by varying degree of safety, where only protected and standard paths separate you from traffic.
+According to the article on [smartasset](https://smartasset.com/data-studies/most-bike-friendly-cities-2021) we know that about **124** miles of protected lanes exist in New York City, compared to around **8,000** miles of streets.
+
+The city's bike routes are classified by varying degree of safety, and counting the number of segments of each type can be seen here:
+
+![Route type distribution](/svg/plot_route_distribution.svg)
+
+It shows that there is a large amount of standard bikes, separated from vehicles with paint. However, the runner-up for most segments is *"sharrows"* - where a bike shares the lane with cars. It's not necessarily a bad thing, even though less safe, it still signals that cyclists are expected there. 
+
+Great, we know the routes. But what about our cyclists? Let's attempt to gain some insight on why do they bike by looking at the distribution of citybike bike trips over the week.
+
+![Bike trips by day of week](/svg/plot_dayofweek_distribution.svg)
+
+CityBike is a bike sharing service. With that in mind, the fact that the most trips are performed during weekdays could mean that they are the people we're after - commuters. To further corroborate that let's plot a more complex graph on that data - a calendar graph.
+
+![Calendar plot](/svg/plot_calendar.svg)
+
+Looking at this gradient, we can see that mot trips are recorded between the morning rush hours - 6 and 9. It is worth noting, that we suspect that around 7am the server system or database may have maintenance time, as it is very unlikely for that specific rush hour to be so empty across the whole year. But even with that break, we can now with more confidence say, that this dta should give us insights about New York's commuters.
+
 
 
 
@@ -22,7 +43,9 @@ More and more big cities such as London follow suit, trying to reduce the carbon
 2. [Cycle commuters in London double](https://www.bikes.org.uk/cycle-commuters-in-london-double/)
 3. [Denmark wants to be a frontrunner in fight against climate change](https://environment.yale.edu/news/article/why-denmark-wants-to-be-a-frontrunner-in-fight-against-climate-change)
 4. [US Census - biking to work in big cities](https://www.census.gov/library/stories/2019/05/younger-workers-in-cities-more-likely-to-bike-to-work.html?fbclid=IwAR0xwhffS35MmPUmMU3zgLntV4lG0LLP1s-OXlGNe62ZGvmdefbM40R2hv0 )
-
+5. [Protected bike lanes in NYC](https://smartasset.com/data-studies/most-bike-friendly-cities-2021)
+6. [Miles of streets in NYC](https://www.cityandstateny.com/politics/2020/04/how-nyc-will-close-up-to-100-miles-of-streets-to-cars/176073/)
+7. [Types of bike lanes in New York](https://parkingtickets.org/traffic-rules-and-regulations/nyc-bike-lanes/)
 
 
 
@@ -35,11 +58,6 @@ This is an example of placing folium/html maps:
 2. reference folium shortcode passing string "html/yourmap.html" as argument - just like below!
 3. Profit
 
-![Calendar plot](/png/plot_route_distribution.png)
-
-![Calendar plot](/png/plot_dayofweek_distribution.png)
-
-![Calendar plot](/png/plot_calendar.png)
 
 {{<folium "html/nyc_map.html">}}
 
