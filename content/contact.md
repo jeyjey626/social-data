@@ -1,14 +1,15 @@
 ---
-title: Authors
+title: "Meet the girls behind the text"
 featured_image: ''
 omit_header_text: true
 description: Meet the girls behind the text
+featured_image: '../media/new-york-bg.jpg'
 type: page
-menu: main
+menu: 
+    main:
+        name: "Authors"
 draft: false
-
 ---
-## Meet the girls behind the text
 
 Let us introduce ourselves! This is the team that wrote the article you (hopefully) just read - we're three students currently pursuing various masters at the Danish University of Technology. We're passionate about data and how it can help us change the world around us for the better. You can find us on LinkedIn using the links below!
 
