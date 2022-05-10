@@ -12,3 +12,13 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 }
+
+p {
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
