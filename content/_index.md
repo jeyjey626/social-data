@@ -29,11 +29,11 @@ Great, we know the routes. But what about our cyclists? Let's attempt to gain so
 CitiBike is a bike sharing service. With that in mind, the fact that the most trips are performed during weekdays could mean that they are the people we're after - commuters. To further corroborate that let's plot a more complex graph on that data - a calendar graph.
 ![Calendar plot](/svg/plot_calendar.svg)
 
-Looking at this gradient, we can see that most trips are recorded between the morning rush hours - 6 and 9. It is worth noting, that we suspect that around 7am the server system or database may have maintenance time, as it is very unlikely for that specific rush hour to be so empty across the whole year. But even with that break, we can now with more confidence say, that this data should give us insights about New York's commuters.
+Looking at this gradient, we can see that most trips are recorded between the morning rush hours - 6 and 9 in the morning. It is worth noting, that we suspect that around 7 in the morning the server system or database may have maintenance time, as it is very unlikely for that specific rush hour to be so empty across the whole year. But even with that break, we can now with more confidence say, that this data should give us insights about New York's commuters.
 
 ## Navigating the city jungle
 
-Let's learn even more about New Yorkers and see where they commute. This is the top 100 all time most popular bike trips with CitiBike until 2017. Each trip is presented as a line connecting two station dots.
+Let's learn even more about New Yorkers and see where they commute. This is the top 100 all time most popular bike trips with CitiBike from 2014 to 2017. Each trip is presented as a line connecting two station dots.
 
 {{<folium "html/nyc_map.html">}}
 
@@ -53,7 +53,7 @@ Now let's create another time-based map but for the days of the week.
 
 {{<folium "html/nyc_map4.html">}}
 
-In the map 01 indicates monday and 07 sunday. We can see that for the weekdays, the lines steadily emerge from the Grand Central Terminal and New York Penn Station areas to the nearby streets. This changes drastically for saturday and sunday, where again we can see most of the trips are being made to the aforementioned leisure locations - Hudson river bank and the Central Park. For Brooklyn and Queens the trips are mostly located near the East River bank during the work week. It could suggest that offices are also located there and people commute to work. The opposite is spotted for the Brooklyn Bridge - most of the popular trips there are during the weekend.
+In the map 01 indicates Monday and 07 Sunday. We can see that for the workdays, the lines steadily emerge from the Grand Central Terminal and New York Penn Station areas to the nearby streets. This changes drastically for Saturday and Sunday, where again we can see most of the trips are being made to the aforementioned leisure locations - Hudson river bank and the Central Park. For Brooklyn and Queens the trips are mostly located near the East River bank during the work week. It could suggest that offices are also located there and people commute to work. The opposite is spotted for the Brooklyn Bridge - most of the popular trips there are during the weekend.
 
 Up until now, we were mostly focusing on the whole bike trips, but now let’s dig into the CitiBike stations. The company has over **1500** stations in New York. Let’s see where they are located and which ones are used the most.
 
@@ -81,7 +81,7 @@ But how could we solve this problem? How can we make biking more accessible to t
 
 As we mentioned in the beginning of the article, the purpose of the cycling data analysis was to find ways to make New York more green. By improving the biking infrastructure, fewer and fewer people will be using cars, which is a big step in reducing the air pollution. But is that all? Of course not. There are a lot of other things that New York could do with that information.
 
-First of all, let's keep in mind that in the analysis we were mostly focusing on the top 100 popular trips. We could find out way more if we looked at all of them. New York departments have access to great computing power, so it shouldn't be a problem to visualize what we did but for all of the data. Optimizing the cycle lanes will greatly reduce the number of cars in te city. Fuel and maintenance costs of vehicles are high, so we believe a lot of people would want to switch to bikes, provided there are safe conditions and convenient routes.
+First of all, let's keep in mind that in the analysis we were mostly focusing on the top 100 popular trips. By viewing some of the less popular bike trips, we might see different conclusions - but viewing them all at the same time would require a very detailed map and higher computational power! Optimizing the cycle lanes will greatly reduce the number of cars in te city. Fuel and maintenance costs of vehicles are high, so we believe a lot of people would want to switch to bikes, provided there are safe conditions and convenient routes.
 
 On the positive note, we checked that New York has already planned big changes for year 2022 in terms of improving the biking infrastructure in the city. This seems really promising and we hope that in a few years there will be as big percentage of commuters as in Copenhagen. Go Big Apple!
 
@@ -94,3 +94,5 @@ On the positive note, we checked that New York has already planned big changes f
 5. [Protected bike lanes in NYC](https://smartasset.com/data-studies/most-bike-friendly-cities-2021)
 6. [Miles of streets in NYC](https://www.cityandstateny.com/politics/2020/04/how-nyc-will-close-up-to-100-miles-of-streets-to-cars/176073/)
 7. [Types of bike lanes in New York](https://parkingtickets.org/traffic-rules-and-regulations/nyc-bike-lanes/)
+
+For more information on the datasets and source code, please refer to the *About* section in the menu bar.
