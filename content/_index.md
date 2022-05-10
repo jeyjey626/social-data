@@ -29,7 +29,7 @@ Great, we know the routes. But what about our cyclists? Let's attempt to gain so
 CitiBike is a bike sharing service. With that in mind, the fact that the most trips are performed during weekdays could mean that they are the people we're after - commuters. To further corroborate that let's plot a more complex graph on that data - a calendar graph.
 ![Calendar plot](/svg/plot_calendar.svg)
 
-Looking at this gradient, we can see that mot trips are recorded between the morning rush hours - 6 and 9. It is worth noting, that we suspect that around 7am the server system or database may have maintenance time, as it is very unlikely for that specific rush hour to be so empty across the whole year. But even with that break, we can now with more confidence say, that this data should give us insights about New York's commuters.
+Looking at this gradient, we can see that most trips are recorded between the morning rush hours - 6 and 9. It is worth noting, that we suspect that around 7am the server system or database may have maintenance time, as it is very unlikely for that specific rush hour to be so empty across the whole year. But even with that break, we can now with more confidence say, that this data should give us insights about New York's commuters.
 
 ## Navigating the city jungle
 
@@ -53,8 +53,7 @@ Now let's create another time-based map but for the days of the week.
 
 {{<folium "html/nyc_map4.html">}}
 
-In the map 01 indicates monday and 07 sunday. We can see that for the weekdays, the lines steadily emerge from the the Grand Central Terminal And New York Penn Station areas to the nearby streets. This changes drastically for saturday and sunday, where again we can se most of the trips are being made to the aforementioned leisure locations - Hudson river bank and the Central Park. For Brooklyn and Queens the trips are mostly located near the East River bank during the work week. It could suggest that offices are also located there and people commute to work. The opposite is spotted for the Brooklyn Bridge - most of the popular trips there are during the weekend.
-
+In the map 01 indicates monday and 07 sunday. We can see that for the weekdays, the lines steadily emerge from the Grand Central Terminal and New York Penn Station areas to the nearby streets. This changes drastically for saturday and sunday, where again we can see most of the trips are being made to the aforementioned leisure locations - Hudson river bank and the Central Park. For Brooklyn and Queens the trips are mostly located near the East River bank during the work week. It could suggest that offices are also located there and people commute to work. The opposite is spotted for the Brooklyn Bridge - most of the popular trips there are during the weekend.
 
 Up until now, we were mostly focusing on the whole bike trips, but now let’s dig into the CitiBike stations. The company has over **1500** stations in New York. Let’s see where they are located and which ones are used the most.
 
@@ -63,6 +62,18 @@ Up until now, we were mostly focusing on the whole bike trips, but now let’s d
 As expected, Manhattan is a district with the highest number of stations. However, there is still a significant number of stations in Brooklyn and Queens. Now spots lacking bike routes clearly stand out. The stations are located in almost every street in Manhattan, some of them not adjacent to any bike lane. It's especially prominent south of the  Grand Central Terminal, which is unfortunate as it is a big commuting hub. We observe that in Brooklyn as well - examples being Nostrand Avenue and Fulton Street.
 
 ## Equal biking
+
+We spotted a lot of interesting features about biking in New York! We saw that most of the trips and stations are located in Manhattan and East River side of Brooklyn and Queens. Now let's think of a cause. When looking at the maps, our first guess was economic-social differences between in these areas. Let's look at them by comparing the household incomes.
+
+![Household income](/webp/household_income.webp)
+
+This sheds light on one of the main factors of the placement of the stations and popular trips - the wellness. It is clear that CitiBike decided to place their stations in the richest neighbourhoods. The map from Business Insider coincides with our maps - most of the popular trips and stations are located in the wealthy areas where people are employed and can afford bike-sharing.
+
+Since, we believe that most of the users of CitiBike are commuters, we also looked at another measure - number of jobs in the different areas. We found the data about the jobs in retail from New York State Department of Labor:
+
+![Retail jobs](/png/retail.png)
+
+We believe that this confirms our theory. Since most of the jobs are located in Manhattan, northern Brooklyn and western Queens, this explains why most people travel to these destinations on the weekdays.
 
 ## Destination: Green Apple
 
