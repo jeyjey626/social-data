@@ -76,7 +76,7 @@ Since, we believe that most of the users of CitiBike are commuters, we also look
 
 ![Retail jobs](/png/retail.png){{<smalltext "Source: https://www.osc.state.ny.us/reports/osdc/retail-sector-new-york-city-recent-trends-and-impact-covid-19">}}
 
-We believe that it's sufficient to corroborate our theory. Since most of the jobs are located in Manhattan, northern Brooklyn and western Queens, this explains why most people travel to these destinations on the weekdays.But how could we solve this problem? 
+We believe that it's sufficient to corroborate our theory. Since most of the jobs are located in Manhattan, northern Brooklyn and western Queens, this explains why most people travel to these destinations on the weekdays. But how could we solve this problem? 
 
 ## Destination: Green Apple
 
