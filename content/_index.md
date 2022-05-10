@@ -75,23 +75,3 @@ As expected, Manhattan is a district with the highest number of stations. Howeve
 5. [Protected bike lanes in NYC](https://smartasset.com/data-studies/most-bike-friendly-cities-2021)
 6. [Miles of streets in NYC](https://www.cityandstateny.com/politics/2020/04/how-nyc-will-close-up-to-100-miles-of-streets-to-cars/176073/)
 7. [Types of bike lanes in New York](https://parkingtickets.org/traffic-rules-and-regulations/nyc-bike-lanes/)
-
-
-
-
-
-
-
-This is an example of placing folium/html maps:
-1. Upload the .html file to static/html.
-2. reference folium shortcode passing string "html/yourmap.html" as argument - just like below!
-3. Profit
-
-
-{{<folium "html/nyc_map.html">}}
-
-{{<folium "html/nyc_map2.html">}}
-
-{{<folium "html/nyc_map3.html">}}
-
-{{<folium "html/nyc_map4.html">}}
