@@ -13,7 +13,7 @@ The jupiter notebook explaining our motivation and all of the steps done along w
 
 Two data sets used can be found in the following links:
 1.  [New York City Bike Routes](https://data.cityofnewyork.us/Transportation/New-York-City-Bike-Routes/7vsa-caz7?fbclid=IwAR1qhBBuDYaDo53woGk00lEG5IXKk9mrOp2seCaARmlS_Ga_Ifk7046Si7U)
-2.  [City bike trips](https://s3.amazonaws.com/tripdata/index.html?fbclid=IwAR15trP4MTHZSkcCqpxBBYtCJLGnAEycwRhWPrYct6QuMSstojYqAamT_D8)
+2.  [Citibike trips](https://s3.amazonaws.com/tripdata/index.html?fbclid=IwAR15trP4MTHZSkcCqpxBBYtCJLGnAEycwRhWPrYct6QuMSstojYqAamT_D8)
 
 They are also referenced in the aforementioned jupiter notebook.
 
