@@ -95,4 +95,4 @@ On the positive note, we checked that New York has already planned big changes f
 6. [Miles of streets in NYC](https://www.cityandstateny.com/politics/2020/04/how-nyc-will-close-up-to-100-miles-of-streets-to-cars/176073/)
 7. [Types of bike lanes in New York](https://parkingtickets.org/traffic-rules-and-regulations/nyc-bike-lanes/)
 
-For more information on the datasets and source code, please refer to the *About* section in the menu bar.
+For more information on the datasets and source code, please refer to the [About](about) section.

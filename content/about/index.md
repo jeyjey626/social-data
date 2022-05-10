@@ -1,7 +1,7 @@
 ---
 title: "About"
 omit_header_text: true
-featured_image: 'media/new-york-bg.jpg'
+featured_image: '../media/new-york-bg.jpg'
 menu:
   main:
     weight: 1
