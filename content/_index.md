@@ -63,13 +63,13 @@ As expected, Manhattan is a district with the highest number of stations. Howeve
 
 ## Equal biking
 
-We spotted a lot of interesting features about biking in New York! We saw that most of the trips and stations are located in Manhattan and East River side of Brooklyn and Queens. Now let's think of a cause. When looking at the maps, our first guess was economic-social differences between in these areas. Let's look at them by comparing the household incomes.
+We spotted a lot of interesting features about biking in New York! We saw that most of the trips and stations are located in Manhattan and East River side of Brooklyn and Queens. Now let's think of a cause. When looking at the maps, our first guess was economic-social differences between these areas. Let's look at them by comparing the household incomes.
 
 ![Household income](/webp/household_income.webp)
 
 This sheds light on one of the main factors of the placement of the stations and popular trips - the wellness. It is clear that CitiBike decided to place their stations in the richest neighbourhoods. The map from Business Insider coincides with our maps - most of the popular trips and stations are located in the wealthy areas where people are employed and can afford bike-sharing.
 
-Since, we believe that most of the users of CitiBike are commuters, we also looked at another measure - number of jobs in the different areas. We found the data about the jobs in retail from New York State Department of Labor:
+Since, we believe that most of the users of CitiBike are commuters, we also looked at another measure - number of jobs in different areas. We found the data about the jobs in retail from New York State Department of Labor:
 
 ![Retail jobs](/png/retail.png)
 
