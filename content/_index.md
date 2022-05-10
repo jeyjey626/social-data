@@ -75,7 +75,15 @@ Since, we believe that most of the users of CitiBike are commuters, we also look
 
 We believe that this confirms our theory. Since most of the jobs are located in Manhattan, northern Brooklyn and western Queens, this explains why most people travel to these destinations on the weekdays.
 
+But how could we solve this problem? How can we make biking more accessible to the people? Teaming up with CitiBike to create special programs or discounts would greatly encourage people from all social classes to bike more often. It would also help reduce the big gap between the wealthy and the poor.
+
 ## Destination: Green Apple
+
+As we mentioned in the beginning of the article, the purpose of the cycling data analysis was to find ways to make New York more green. By improving the biking infrastructure, fewer and fewer people will be using cars, which is a big step in reducing the air pollution. But is that all? Of course not. There are a lot of other things that New York could do with that information.
+
+First of all, let's keep in mind that in the analysis we were mostly focusing on the top 100 popular trips. We could find out way more if we looked at all of them. New York departments have access to great computing power, so it shouldn't be a problem to visualize what we did but for all of the data. Optimizing the cycle lanes will greatly reduce the number of cars in te city. Fuel and maintenance costs of vehicles are high, so we believe a lot of people would want to switch to bikes, provided there are safe conditions and convenient routes.
+
+On the positive note, we checked that New York has already planned big changes for year 2022 in terms of improving the biking infrastructure in the city. This seems really promising and we hope that in a few years there will be as big percentage of commuters as in Copenhagen. Go Big Apple!
 
 ### Sources
 
