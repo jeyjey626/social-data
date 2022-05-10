@@ -63,27 +63,30 @@ As expected, Manhattan is a district with the highest number of stations. Howeve
 
 ## Equal biking
 
-We spotted a lot of interesting features about biking in New York! We saw that most of the trips and stations are located in Manhattan and East River side of Brooklyn and Queens. Now let's think of a cause. When looking at the maps, our first guess was economic-social differences between these areas. Let's look at them by comparing the household incomes.
+We spotted a lot of interesting features about biking in New York. We saw that most of the trips and stations are located in Manhattan and East River side of Brooklyn and Queens. It could be advantageous to discover the reason behind it. The first thing that comes to mind is population density. Additionally, let's look at the socioeconomic status differences between these areas, by comparing household incomes. 
 
-![Household income](/webp/household_income.webp)
+![Population density](/png/nycpop.jpg){{<smalltext "Source: https://www.6sqft.com/what-nycs-population-looks-like-day-vs-night/">}}
 
-This sheds light on one of the main factors of the placement of the stations and popular trips - the wellness. It is clear that CitiBike decided to place their stations in the richest neighbourhoods. The map from Business Insider coincides with our maps - most of the popular trips and stations are located in the wealthy areas where people are employed and can afford bike-sharing.
+{{<bipic "/webp/household_income.webp">}}{{<smalltext "Source: https://www.businessinsider.com/new-york-city-income-maps-2014-12?r=US&IR=T">}}
+
+
+This sheds light on one contributing factors when it comes to station placement - wealth. It is clear that CitiBike decided to place their stations in the richest neighborhoods, not only the ones most populated. The map from Business Insider coincides with our maps - most of the popular trips and stations are located in the wealthy areas where people are employed and can afford bike-sharing.
 
 Since, we believe that most of the users of CitiBike are commuters, we also looked at another measure - number of jobs in different areas. We found the data about the jobs in retail from New York State Department of Labor:
 
-![Retail jobs](/png/retail.png)
+![Retail jobs](/png/retail.png){{<smalltext "Source: https://www.osc.state.ny.us/reports/osdc/retail-sector-new-york-city-recent-trends-and-impact-covid-19">}}
 
-We believe that this confirms our theory. Since most of the jobs are located in Manhattan, northern Brooklyn and western Queens, this explains why most people travel to these destinations on the weekdays.
-
-But how could we solve this problem? How can we make biking more accessible to the people? Teaming up with CitiBike to create special programs or discounts would greatly encourage people from all social classes to bike more often. It would also help reduce the big gap between the wealthy and the poor.
+We believe that it's sufficient to corroborate our theory. Since most of the jobs are located in Manhattan, northern Brooklyn and western Queens, this explains why most people travel to these destinations on the weekdays. But how could we solve this problem? 
 
 ## Destination: Green Apple
 
-As we mentioned in the beginning of the article, the purpose of the cycling data analysis was to find ways to make New York more green. By improving the biking infrastructure, fewer and fewer people will be using cars, which is a big step in reducing the air pollution. But is that all? Of course not. There are a lot of other things that New York could do with that information.
+As we mentioned in the beginning of the article, the purpose of the cycling data analysis was to find ways to make New York more green. By improving the biking infrastructure, fewer and fewer people will be using cars, which is a big step in reducing the carbon footprint. But is that all? Of course not. There are a lot of other things that New York could do with that information.
 
-First of all, let's keep in mind that in the analysis we were mostly focusing on the top 100 popular trips. By viewing some of the less popular bike trips, we might see different conclusions - but viewing them all at the same time would require a very detailed map and higher computational power! Optimizing the cycle lanes will greatly reduce the number of cars in te city. Fuel and maintenance costs of vehicles are high, so we believe a lot of people would want to switch to bikes, provided there are safe conditions and convenient routes.
+The previous section tackles accessibility and affordability of shared biking. We may be missing some data that could improve the biking experience for all commuters, not only citibike users. Teaming up with CitiBike to create special programs or discounts would greatly encourage people from all social classes to bike more often. It would also help reduce the big gap between the wealthy and the poor, as well as generate data to work with.
 
-On the positive note, we checked that New York has already planned big changes for year 2022 in terms of improving the biking infrastructure in the city. This seems really promising and we hope that in a few years there will be as big percentage of commuters as in Copenhagen. Go Big Apple!
+Moreover, let's keep in mind that in the analysis we were mostly focusing on the top 100 popular trips. By extending this to analyze also next hundreds of popular trips could bring more insights, which would require a very detailed map and higher computational power, something that for sure isn't outside New York's capability of funding. We believe that optimizing the cycle lanes and ensuring biking safety will greatly reduce the number of cars in te city, especially if it's combined with encouraging programs. Fuel and maintenance costs of vehicles are high, so it seems plausible a lot of people would want to switch to bikes, provided there are safe conditions, convenient routes and competitive pricing compared to public transportation.
+
+On a positive note, New York has already planned big changes for 2022 in terms of improving biking infrastructure in the city, and there will be the first New York State biking census this year. This is truly promising and we hope that in a few years there will be as many biking commuters as in Copenhagen. Go Big Apple!
 
 ### Sources
 
@@ -94,5 +97,6 @@ On the positive note, we checked that New York has already planned big changes f
 5. [Protected bike lanes in NYC](https://smartasset.com/data-studies/most-bike-friendly-cities-2021)
 6. [Miles of streets in NYC](https://www.cityandstateny.com/politics/2020/04/how-nyc-will-close-up-to-100-miles-of-streets-to-cars/176073/)
 7. [Types of bike lanes in New York](https://parkingtickets.org/traffic-rules-and-regulations/nyc-bike-lanes/)
+8. [Biking Census](https://www.bike.nyc/blog/tagged/new-york-state-bike-census/)
 
-For more information on the datasets and source code, please refer to the [About](about) section.
+For more information on the datasets and source code, please refer to the [About](about) section. Information about authors can be found [here.](contact)
