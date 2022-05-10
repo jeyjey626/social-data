@@ -68,7 +68,7 @@ As expected, Manhattan is a district with the highest number of stations. Howeve
 
 ### Sources
 
-1. [Cycling in Dublin and Copenhagen](https://www.researchgate.net/publication/F331134372_The_Current_State_of_Cycling_Infrastructure_in_Dublin_and_Copenhagen_A_Comparison_of_Cycling_Infrastructure_in_8_Radial_Routes_into_the_City_Centre_of_Dublin_and_Copenhagen)
+1. [Cycling in Dublin and Copenhagen](https://www.researchgate.net/publication/331134372_The_Current_State_of_Cycling_Infrastructure_in_Dublin_and_Copenhagen_A_Comparison_of_Cycling_Infrastructure_in_8_Radial_Routes_into_the_City_Centre_of_Dublin_and_Copenhagen)
 2. [Cycle commuters in London double](https://www.bikes.org.uk/cycle-commuters-in-london-double/)
 3. [Denmark wants to be a frontrunner in fight against climate change](https://environment.yale.edu/news/article/why-denmark-wants-to-be-a-frontrunner-in-fight-against-climate-change)
 4. [US Census - biking to work in big cities](https://www.census.gov/library/stories/2019/05/younger-workers-in-cities-more-likely-to-bike-to-work.html?fbclid=IwAR0xwhffS35MmPUmMU3zgLntV4lG0LLP1s-OXlGNe62ZGvmdefbM40R2hv0 )
